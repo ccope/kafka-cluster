@@ -9,6 +9,3 @@ Usage
 Currently this cookbook relies on DHCP addressing for the machines, so you'll
 first have to `vagrant up`, then get the list of IP's, and then insert them at
 the top of the default recipe before running `vagrant provision`.
-
-I'm also using LXC, so you'll have to change the box if you want to user
-another provider.
